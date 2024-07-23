@@ -1,0 +1,19 @@
+{
+  "name": "first_app",
+  "version": "1.0.0",
+  "description": "This is my First Node App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Abhishek Bhatia",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "minimist": "^1.2.8"
+  }
+}
