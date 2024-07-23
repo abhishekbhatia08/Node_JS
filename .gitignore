@@ -1,0 +1,21 @@
+# Ignore Node.js documentation and other unnecessary files
+
+# Node.js documentation
+/node_modules/**/*.md
+/node_modules/**/*.markdown
+/node_modules/**/*.txt
+
+# Ignore package-lock.json file
+package-lock.json
+
+# Ignore npm-debug.log file
+npm-debug.log
+
+# Ignore node_modules directory
+/node_modules
+
+# Ignore other unnecessary files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
