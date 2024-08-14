@@ -11,8 +11,16 @@ app.get("/users", (req,res) => {
     res.json({ message: "Get all the users."});
 });
 
-app.get("/users/:id", (req,res) => {
-    res.json({ message: `Get user with ID ${req.params.id}`});
+app.post("/users/", (req,res) => {
+    res.json({ message: `Create new user`});
+});
+
+app.put("/users/:id", (req,res) => {
+    res.json({ message: `Update user with ID ${req.params.id}`});
+});
+
+app.delete("/users/:id", (req,res) => {
+    res.json({ message: `Delete user with ID ${req.params.id}`});
 });
 
 app.listen(port, () => {
