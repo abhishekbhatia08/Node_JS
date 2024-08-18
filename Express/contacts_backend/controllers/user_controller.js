@@ -85,7 +85,7 @@ const loginUser = asyncHandler(async (req, res) => {
 //@access Private
 
 const currentUser = asyncHandler(async (req, res) => {
-    res.status(200).json({ message: `Current User` });
+    res.status(200).json(req.user);
 });
 
 
